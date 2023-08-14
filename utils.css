@@ -1,0 +1,43 @@
+:root {
+    --blue: #25344f;
+    --btn: #23a6f0;
+
+  }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: var(--blue);
+    /* border-bottom: 1px solid white; */
+    width: 100%;
+
+}
+.ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #23a6f0;
+}
+.custom-btn button{
+    padding: 20px 48px ;
+    font-family: 'Roboto', sans-serif;
+}
+.custom-btn .blk-btn{
+    background: transparent;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+.blk-btn button{
+    background: transparent;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+}
+.center{
+    text-align: center;
+}

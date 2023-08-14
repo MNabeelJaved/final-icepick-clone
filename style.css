@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.ul li{
+    list-style: none;
+    margin: 0 25px;
+    
+}
+.my-1{
+    color: rgb(#ffffff);
+    position: absolute;
+    right: 19px;
+    opacity: 0;
+
+}
+
+.ul a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.btn button{
+    padding: 10px 48px;
+    border-radius: 50px;
+    background-color: var(--btn);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.section-2{
+    width: 100%;
+    height: 750px;
+    background-color: var(--blue)
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.star-rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px;
+    height: 8vh;
+    border-radius: 50px;
+    background-color:#2c4163;
+    margin-top: 100px;
+    color: white;
+}
+.star-rating img, h3{
+    margin: 0px 5px;
+}
+.star-rating h3{
+    border-right: 1px solid rgb(182, 182, 182);
+    padding-right: 5px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px;
+}
+.main h1, p, button{
+    margin: 10px;
+
+}
+.main p{
+    font-size: 1.6rem;
+    color: rgb(192, 192, 192);
+}
+.main h1{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.tag-lin{
+    margin-top: 100px;
+}
+.tag-lin p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bolder;
+    margin: 10px 0px;
+
+
+}
+.brand-logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #2c4163;
+    padding: 35px 0;
+    
+}
+.brand-logos img{
+    width: 160px;
+    margin: 0px 15px;
+}
+
+.doctor{
+    height: 50px;
+
+}
+.united-way{
+    height: 40px;
+}
+/* .section-3{
+    height: 500px;
+} */
+.heading{
+    text-align: center;
+    color: #25344f;
+    font-family: 'Roboto', sans-serif;
+    margin: 154px 0;
+    
+}
+.heading h1{
+    font-size: 3rem;
+    margin: 24px 0px;
+}
+.heading p{
+    font-size: 1.4rem;
+}
+.all-boxes{
+    width: 100%;
+    
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+.left-box{
+    text-align: center;
+    width: 40%;
+    background-color: var(--blue);
+    height: 80vh;
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+
+}
+.left-box h3{
+    font-size: 1.4rem;
+}
+.left-box img{
+    width: 7vw;
+    background:rgba(138,192,255,.1);
+    padding: 34px;
+    border-radius: 30px;
+    filter: grayscale(100%) brightness(200%);
+    margin-top: 60px;
+}
+.left-box h3, p, button, img{
+    margin: 15px;
+    
+}
+
+
+
+.right-box{
+    text-align: center;
+    width: 40%;
+    background-color: var(--blue);
+    height: 80vh;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+
+}
+.right-box h3{
+    font-size: 1.4rem;
+}
+.right-box img{
+    width: 7vw;
+    background:rgba(138,192,255,.1);
+    padding: 34px;
+    border-radius: 30px;
+    filter: grayscale(100%) brightness(200%);
+    margin-top: 60px;
+}
+.right-box h3, p, button, img{
+    margin: 15px;
+    
+}
+.tech{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 50px 0px;
+}
+.tech h1{
+    color: #25344f;
+    margin: 30px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.tech img{
+    margin: 10px 40px;
+}
+.img-logo img{
+    width: 50px;
+}
+.clients{
+    width: 100%;
+    height: 100vh;
+    background: #eef2f6;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+.all-main-boxes{
+    margin: 50px;
+    
+}
+
+.clients div h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0;
+    margin: 50px 0px;
+}
+.all-boxes-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.box-1{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    text-align: center;
+}
+.box-item img{
+    width: 75px;
+    border-radius: 100px;
+}
+.box-item .p{
+    line-height: 24px;
+}
+.recent-projects{
+    width: 100%;
+    background: #25344f;
+    /* border-bottom: 1px solid white; */
+    
+}
+.main-project{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.recent-projects h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 50px;
+    
+   
+}
+.btn-1{
+    margin: 20px;
+}
+.projec{
+    text-align: center;
+}
+.projec img{
+    width: 32vw;
+    border-radius: 10px;
+   
+}
+.Recent-Posts{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.Recent-Posts h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.post-1 h3, p ,img{
+    margin: 20px 10px;
+    
+}
+.posts h3, p {
+    text-align: left;
+    
+}
+
+
+
+.posts img{
+    width: 29vw;
+    border-radius: 10px;
+}
+.btn-2{
+    text-align: center;
+    margin: 20px;
+}
+.btn-2 button{
+    color: black;
+    background: transparent;
+    border: 1px solid black!important;
+    font-family: 'Roboto', sans-serif;
+}
+.lets-talk{
+    width: 100%;
+    padding: 125px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lets{
+    width: 80%;
+    background-color: #2c4163;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+.white button{
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255)!important;
+    font-family: 'Roboto', sans-serif;
+
+}
+.company img{
+    width: 116px;
+
+}
+.company{
+    padding: 80px;
+    color: white;
+    width: 40%;
+}
+.company img, p, i{
+    margin: 20px 8px;
+}
+footer{
+    
+    background-color: #25344f;
+
+}
+footer ul a{
+    color: white;
+}
+footer ul li{
+    margin: 30px 0px;
+}
+.lean-more, .location{
+    padding-top: 80px;
+    margin: 0px;
+}
+
+.align{
+    display: flex;
+    justify-content: space-around;
+
+}

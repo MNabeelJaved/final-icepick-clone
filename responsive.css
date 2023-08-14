@@ -1,0 +1,177 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  /* Your styles for mobile devices here */
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Your styles for tablet devices here */
+}
+
+@media screen and (max-width: 842px) {
+
+  .navbar {
+    display: none;
+  }
+  .my-1{
+
+    opacity: 1;
+
+}
+  
+  .star-rating {
+    width: 280px;
+  }
+  .main h1 {
+    font-size: 2.2rem;
+    padding: 8px 13px;
+  }
+  .main p {
+    font-size: 1rem;
+  }
+  .star-rating {
+    margin-top: 80px;
+  }
+  .section-2 {
+    height: 600px;
+  }
+  .tag-lin {
+    margin: 0px;
+  }
+
+  .box {
+    flex-wrap: wrap;
+  }
+  .left-box {
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    background-color: none;
+    height: 68vh;
+  }
+  .left-box img {
+    background: none;
+    padding:0;
+    border-radius: 0;
+  }
+  
+
+  .right-box {
+    width: 80%;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10;
+    border-bottom-right-radius: 10px;
+  }
+  .right-box img {
+    background: none;
+    padding:0;
+    border-radius: 0;
+  }
+  .brand-logos img {
+    width: 70px;
+  }
+  .btn button {
+    padding: 14px 26px;
+  }
+  .tag-lin p {
+    font-size: 0.8rem;
+  }
+  .heading {
+    margin-top: 141px;
+    margin-bottom: -67px;
+  }
+
+    
+
+  .heading h1 {
+    font-size: 2rem;
+    padding: 5px 25px;
+  }
+  .heading p{
+    font-size: 1.1rem;
+    padding: 2px 23px;
+  }
+  .img-logo img {
+    width: 24px;
+    margin: 11px 10px;
+  }
+  .tech h1 {
+    font-size: 2.2rem;
+  }
+  .all-main-boxes{
+    margin: 2px;
+  }
+  
+  .clients div h1 {
+    font-size: 23px;
+    margin: 27px 0px;
+}
+.box-1{
+  height: 345px;
+}
+.main-project h1 {
+  padding: 10px;
+  font-size: 30px;
+}
+  .projec-box-1{
+
+    flex-wrap: wrap;
+   
+}
+.box-item p{
+  margin: 7px 23px;
+
+}
+.box-1 h3{
+  font-size: 20px;
+}
+.projec img {
+  width: 127px;
+}
+.recent-projects h1 {
+  font-size: 32px;
+}
+.posts h3{
+  font-size: 1rem;
+}
+.posts img{
+  width: 43vw;
+}
+.Recent-Posts h1 {
+  font-size: 2.2rem;
+  margin: 0px;
+}
+.posts h3, p {
+  text-align:center;
+  
+}
+.lest p{
+  font-size: 0.8rem;
+}
+.Recent-Posts h1 {
+  font-size: 1.9rem;
+  margin: 0px;
+}
+.lets-talk {
+  padding: 6px 0px;
+}
+.btn-2 button {
+  padding: 4px 15px;
+}
+.align{
+  flex-direction: column;
+  text-align: center;
+
+}
+.company{
+  width: 100%;
+  padding: 10px;
+}
+.lean-more, .location{
+  padding-top: 20px;}
+
+
+
+
+
+
+}
